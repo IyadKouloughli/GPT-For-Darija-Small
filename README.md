@@ -55,7 +55,7 @@ python download_data.py
 #### Step 2: Train the Tokenizer
 Train a custom Byte-Pair Encoder on the raw Darija text to handle the dialect's unique morphology.
 ```bash
-python tokenizer.py
+python dataloader.py
 ```
 *Outputs: `GPT2_darija_tokenizer/` directory.*
 
@@ -68,7 +68,7 @@ python train.py
 
 ---
 
-## 🎮 Usage and Interface
+## Usage and Interface
 
 ### Command Line Inference
 Generate text directly from your terminal:
